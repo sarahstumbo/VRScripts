@@ -3,6 +3,7 @@ Some helpful scripts for VR development in Unity
 
 
 **Editor Scripts**
+
 These scripts need to be in a folder called "Editor" in your unity project. They are scripts to extend the functionality of the unity editor.
 
 -VREditorToggle: This script allows us to easily toggle in and out of VR mode for development and quick testing. No effect on gameplay.
@@ -10,6 +11,7 @@ These scripts need to be in a folder called "Editor" in your unity project. They
 -VRInputManagerAssetGenerator: This script auto generates the input settings you will need for VR controllers. 
 
 **Regular Scripts**
+
 These scripts are to be attached to GameObjects in your scene.
 
 -PlayerTrackingAdjustment: This script adjusts the player's rig depending on whether VR is configured for roomscale or standing experiences. Attach this script to your player rig.
